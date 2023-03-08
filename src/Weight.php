@@ -1,16 +1,16 @@
 <?php
 
 namespace Kisssg\UnitConversions;
-use Exception;
 
 class Weight
 {
     private float $kilograms;
 
-    public static function fromKilograms(float $kilograms): self {
+    public static function fromKilograms(float $kilograms): self
+    {
         $myArr = [
             'test',
-            'test2',
+            'test2'
         ];
 
         return new static($kilograms);
