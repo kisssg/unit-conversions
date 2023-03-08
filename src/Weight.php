@@ -7,11 +7,6 @@ class Weight
     private float $kilograms;
 
     public static function fromKilograms(float $kilograms): self    {
-        $myArr = [
-            'test',
-            'test2','test3'
-        ];
-
         return new static($kilograms);
     }
 
